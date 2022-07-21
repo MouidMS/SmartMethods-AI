@@ -14,7 +14,8 @@
     
    
    <h3>3-Setup</h3>
-<img src='https://user-images.githubusercontent.com/75043063/179871108-87a063f9-3048-43e1-87e6-1566710ca68a.png'/>
+
+<img src='https://user-images.githubusercontent.com/75043063/180301769-f95af1a1-b4ce-4d80-a688-a361165dbf0a.png'/>
    <h3>Install ROS kinetic And Run</h3>
    Setup your sources.list:
    <pre>sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -97,5 +98,6 @@ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control</pre>
 <p dir="auto">The final command to finally launch the project</p>
     <pre><span class="pl-c1">roslaunch robot_arm_pkg check_motors.launch</span>
 </pre></div>
-<img src='https://user-images.githubusercontent.com/75043063/179872937-419c4583-60b8-4e8f-9679-a38f8693ec82.png' >
+
+<img src='https://user-images.githubusercontent.com/75043063/180305043-de9a3e8c-87f2-4f1e-bee7-027207f3b00f.png' >
    
